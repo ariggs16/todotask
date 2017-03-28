@@ -1,6 +1,5 @@
 import React from 'react'
 import FormInfo from './FormInfo'
-import List from './List'
 
 const stylesheet = {
   form: {
@@ -24,7 +23,6 @@ export default React.createClass({
       <div style={stylesheet.form}>
        <h1 style={stylesheet.header}>todos</h1>
        <FormInfo />
-       <List />
       </div>
     )
   }
