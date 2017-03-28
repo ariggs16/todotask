@@ -9,12 +9,11 @@ const stylesheet = {
 }
 export default React.createClass ({
 	getInitialState() {
-		return {
+		return {cd
 			aInput: ''
 		}
 	},
 	aHandler(evt) {
-		
 		this.setState({
 			aInput: evt.target.value
 		})

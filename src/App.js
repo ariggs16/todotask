@@ -13,7 +13,7 @@ const stylesheet = {
   header: {
     textAlign:'center',
     color:'rgb(235,219,219)',
-    fontSize:40,
+    fontSize:50,
     fontWeight:100,
   }
 }
